@@ -1,3 +1,4 @@
 from random import randint
-x = randint(1, 5)
+y = int(input('до коково генерировать?'))
+x = randint(1, y)
 print(x)
